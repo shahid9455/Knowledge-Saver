@@ -4,8 +4,10 @@ from ibm_watson.natural_language_understanding_v1 import Features, KeywordsOptio
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 import difflib
 import requests
+import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='')
+
 app.secret_key = "secret_key_for_flask"
 
 # IBM Watson NLU Configuration

@@ -4,4 +4,3 @@ numpy==2.1.0
 requests
 openai
 ibm-watson
-python

@@ -1,7 +1,6 @@
 flask==3.0.3
 pandas==2.2.2
 numpy==2.1.0
-Python==3.10.14
 requests
 openai
 ibm-watson
